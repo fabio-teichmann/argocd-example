@@ -1,0 +1,2 @@
+Create app in ArgoCD
+`argocd app create flask-app --repo https://github.com/fabio-teichmann/argocd-example.git --path . --dest-server https://kubernetes.default.svc --dest-namespace default --sync-policy automated`
